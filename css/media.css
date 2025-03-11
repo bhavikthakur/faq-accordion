@@ -2,6 +2,8 @@
     body {
         align-items: center;
         padding-top: 10vh;
+        background-image: url("../assets/images/background-pattern-desktop.svg");
+        overflow-y: scroll;
     }
 
     .card {
@@ -14,6 +16,25 @@
 
     .card__answer {
         font-size: 1rem;
+    }
+
+}
+
+@media (max-width:375px) {
+    body {
+        background-image: url("../assets/images/background-pattern-mobile.svg");
+    }
+
+    .card__title {
+        font-size: 2rem;
+    }
+
+    .card__answer {
+        font-size: 0.8rem;
+    }
+
+    .card__question {
+        font-size: 1.2rem;
     }
 
 }
