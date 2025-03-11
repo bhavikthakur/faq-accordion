@@ -110,14 +110,3 @@ body {
 .card__faq-header:nth-of-type(n + 2) {
     border-top: 2px solid var(--clr-pink-300);
 }
-
-
-/* -----------------ACTIVE CLASS TO TOGGLE------------- */
-
-
-
-/* Active state */
-/* .card__answer.active {
-    opacity: 1;
-    max-height: 1000px;
-} */

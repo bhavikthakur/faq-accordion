@@ -4,8 +4,6 @@ faqHeaders.forEach((faqHeader) => {
   faqHeader.addEventListener("click", () => {
     const answer = faqHeader.nextElementSibling;
     const icon = faqHeader.querySelector("img");
-
-    answer.classList.toggle("active");
     if (answer.style.maxHeight && answer.style.maxHeight !== "0px") {
       answer.style.maxHeight = "0px";
       answer.style.opacity = "0";
