@@ -36,7 +36,7 @@ A sleek and responsive FAQ accordion built with HTML, CSS, and JavaScript. This 
 ## 🔧 Setup & Usage  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/social-links-profile.git    
+   git clone https://github.com/bhavikthakur/faq-accordion.git   
 2. Open index.html in your browser. 
 
 ## 📌 Future enhancement  
